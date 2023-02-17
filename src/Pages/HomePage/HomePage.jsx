@@ -1,7 +1,10 @@
 import React from "react";
+import Easier from "./Easier/Easier";
 
 function HomePage() {
-  return <div>HomePage</div>;
+  return <div>
+    <Easier/>
+  </div>;
 }
 
 export default HomePage;

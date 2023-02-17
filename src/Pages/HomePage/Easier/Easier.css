@@ -1,0 +1,134 @@
+.easier {
+  margin: 100px 0;
+}
+.easier .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.easier .easierText {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  overflow: hidden;
+}
+.easier .easierText h1 {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 161.02%;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.easier .easierText .slider {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  animation: slider 6s linear infinite;
+}
+@keyframes slider {
+  0% {
+    margin-top: -400px;
+  }
+  5% {
+    margin-top: -200px;
+  }
+  30% {
+    margin-top: -200px;
+  }
+  35% {
+    margin-top: 0px;
+  }
+  65% {
+    margin-top: 0px;
+  }
+  70% {
+    margin-top: 200px;
+  }
+  100% {
+    margin-top: 200px;
+  }
+}
+.easier .slider div {
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 161.02%;
+  text-transform: uppercase;
+  color: #028cf0;
+  margin: 18px 0;
+}
+
+.easier .easierBtn button {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #028cf0;
+  border: none;
+  font-family: "EuropeExtB";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 161.02%;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.bodyImg {
+  background-image: url("../../../assets/imgs/headersImg.png");
+  background-size: cover;
+  /* height: 500px; */
+  padding: 663px 0 60px 81px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.bodyImg .rows {
+  display: flex;
+  align-items: center;
+}
+.bodyImg .onOffBtn {
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+.bodyImg .onOffBtn button {
+  font-family: "Switzer";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 161.02%;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 33px 55px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.bodyImg .onOffBtn button:first-child {
+  border-radius: 10px 0px 0px 10px;
+}
+.bodyImg .onOffBtn button:last-child {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.bodyImg .coursesBtn button {
+  font-family: "Switzer";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 161.02%;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+  margin: 0 3px;
+  background: rgba(114, 114, 114, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.bodyImg .coursesBtn .mb {
+  margin-bottom: 5px;
+}

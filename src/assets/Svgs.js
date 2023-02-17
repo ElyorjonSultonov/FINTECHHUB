@@ -93,3 +93,16 @@ export const OpenBtn = (
     <line x1="76" y1="61" x2="4" y2="61" stroke="black" stroke-width="2" />
   </svg>
 );
+
+// nav end
+export const Vector = (
+  <svg
+    width="650"
+    height="46"
+    viewBox="0 0 650 46"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M627 45L649 23M649 23L627 0.999973M649 23L0 23" stroke="black" />
+  </svg>
+);
