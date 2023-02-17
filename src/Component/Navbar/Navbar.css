@@ -1,0 +1,87 @@
+nav {
+  padding: 20px 0;
+  border-bottom: 1px solid #e7e7e7;
+}
+nav .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .courses {
+  display: flex;
+  align-items: center;
+}
+nav .courses h1 {
+  font-family: "EuropeExtR";
+  font-weight: 400;
+  font-style: unset;
+   font-size: 32px;
+  line-height: 51.53px;
+  color: #000000;
+  margin-right: 90px;
+}
+nav .courses div {
+  cursor: pointer;
+  padding: 0 20px;
+  position: relative;
+}
+nav .courses div::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 0.1px;
+  height: 123px;
+  background-color: #e7e7e7;
+  border: 1px solid #e7e7e7;
+}
+nav .courses div::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 0;
+  width: 0.1px;
+  height: 123px;
+  background-color: #e7e7e7;
+  border: 1px solid #e7e7e7;
+}
+
+nav .logo {
+  cursor: pointer;
+}
+nav .avatar {
+  display: flex;
+  align-items: center;
+}
+nav .avatar .menuBtn {
+  margin-left: 90px;
+  cursor: pointer;
+}
+
+nav .avatar div:first-child {
+  cursor: pointer;
+  position: relative;
+  padding: 0 20px;
+}
+
+nav .avatar div:first-child::after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 0.01px;
+  height: 123px;
+  background-color: #e7e7e7;
+  border: 1px solid #e7e7e7;
+}
+nav .avatar div:first-child::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 0;
+  width: 0.01px;
+  height: 123px;
+  background-color: #e7e7e7;
+  border: 1px solid #e7e7e7;
+}
