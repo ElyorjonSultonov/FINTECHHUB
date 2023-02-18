@@ -75,6 +75,10 @@
   cursor: pointer;
 }
 
+.easier .easierBtn button:hover {
+  box-shadow: 0 0 10px #666666;
+}
+
 .bodyImg {
   background-image: url("../../../assets/imgs/headersImg.png");
   background-size: cover;
@@ -94,7 +98,7 @@
   margin-right: 60px;
 }
 .bodyImg .onOffBtn button {
-  font-family: "Switzer";
+  font-family: "SwitzerL";
   font-weight: 500;
   font-size: 24px;
   line-height: 161.02%;
@@ -114,7 +118,7 @@
 }
 
 .bodyImg .coursesBtn button {
-  font-family: "Switzer";
+  font-family: "SwitzerL";
   font-weight: 500;
   font-size: 18px;
   line-height: 161.02%;
